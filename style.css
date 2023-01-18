@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@media screen and (max-width: 959px) {
+  .responsiveContainer {
+    margin: 0;
+    width: 100%;
+  }
+  .mainText {
+    margin-left: 14px;
+    width: 359px;
+    margin-bottom: 63px;
+  }
+  .subText {
+    margin-left: 14px;
+  }
+  .main {
+    margin-left: 14px;
+  }
+  .name {
+    margin-left: 14px;
+  }
+  #us {
+    align-items: center;
+  }
+  .specialist {
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+  }
+  #offer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service {
+    width: 338px;
+    height: 331px;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 960px) {
+  .responsiveContainer {
+    margin: 0 auto;
+    width: 960px;
+  }
+  .mainText {
+    margin-bottom: 62px;
+    width: 577px;
+  }
+  .service {
+    width: 190px;
+    height: 190px;
+  }
+  .specialist {
+    flex-direction: row;
+  }
+  .specialist:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+  .mainText {
+    margin-bottom: 62px;
+    width: 577px;
+  }
+  .specialist:nth-of-type(even) > .specialistName {
+    align-items: flex-end;
+  }
+  .specialist:nth-of-type(even) > .specialistName > * {
+    text-align: end;
+  }
+  #offer {
+    flex-wrap: wrap;
+  }
+  .offerText {
+    margin-right: 469px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+/* .button { */
+/* margin-right: 46px;
+} */
+.responsiveContainer {
+  display: flex;
+  flex-direction: column;
+}
+#welcomeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+.section {
+  position: relative;
+}
+.section > * {
+  position: relative;
+}
+.name {
+  margin-right: auto;
+}
+#image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-019-0374-3/MediaObjects/41477_2019_374_Figa_HTML.jpg");
+  filter: brightness(50%);
+}
+.sectionBackground {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100%;
+  position: absolute !important;
+}
+
+/* .disabled:hover {
+  cursor: not-allowed;
+} */
+
+.main {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 164px;
+  height: 40px;
+  border: solid #ffffff 3px;
+}
+
+.main:hover {
+  color: black;
+  background-color: white;
+}
+
+#us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+#usBackground {
+  background-color: #f1f1f1;
+}
+
+#offer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#offerBackground {
+  background-color: #405d78;
+}
+nav {
+  padding: 10px 0 11px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+nav > * {
+  position: relative;
+}
+footer {
+  padding: 25px 0 25px;
+  position: relative;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+footer > * {
+  position: relative;
+}
+.picture {
+  height: 197px;
+  width: 197px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.service {
+  position: relative;
+  display: flex;
+  margin: 5px;
+  background-color: aliceblue;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.5s;
+}
+.service:hover {
+  scale: 1.05;
+}
+.offerText {
+  color: #ffffff;
+  margin-bottom: 82px;
+}
+.specialist {
+  align-items: center;
+  display: flex;
+  margin-right: -30px;
+  margin-left: -30px;
+}
+.specialist > * {
+  margin: 15px 30px;
+}
+.promotion::after {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 22px;
+  height: 22px;
+  background-color: #e07a64;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+#footerBackground {
+  background-color: #4e4e4e;
+}
+#navBackground {
+  background-color: #4e4e4e;
+}
+a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+#instagram {
+  margin-right: 18px;
+}
+
+.specialistName {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.subText {
+  margin-bottom: 42px;
+}
+.our {
+  margin-bottom: 78px;
+}
