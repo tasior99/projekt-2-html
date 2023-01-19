@@ -76,8 +76,8 @@
     flex-wrap: wrap;
   }
   .offerText {
-    margin-right: 469px;
-    margin-bottom: 82px;
+    margin-right: 400px;
+    margin-bottom: 51px;
   }
   .service {
     margin: 31px;
@@ -258,4 +258,9 @@ p {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
