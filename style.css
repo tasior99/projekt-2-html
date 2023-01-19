@@ -34,9 +34,13 @@
   .service {
     width: 338px;
     height: 331px;
+    margin: 18px;
   }
   footer {
     flex-direction: column;
+  }
+  .offerText {
+    margin-bottom: 41px;
   }
 }
 @media screen and (min-width: 960px) {
@@ -73,6 +77,10 @@
   }
   .offerText {
     margin-right: 469px;
+    margin-bottom: 82px;
+  }
+  .service {
+    margin: 31px;
   }
 }
 html {
@@ -186,7 +194,6 @@ footer > * {
 .service {
   position: relative;
   display: flex;
-  margin: 5px;
   background-color: aliceblue;
   flex-direction: column;
   justify-content: center;
@@ -198,13 +205,10 @@ footer > * {
 }
 .offerText {
   color: #ffffff;
-  margin-bottom: 82px;
 }
 .specialist {
   align-items: center;
   display: flex;
-  margin-right: -30px;
-  margin-left: -30px;
 }
 .specialist > * {
   margin: 15px 30px;
@@ -244,4 +248,14 @@ a {
 }
 .our {
   margin-bottom: 78px;
+}
+h6 {
+  font-weight: 700;
+  line-height: 21px;
+  font-size: 18px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
