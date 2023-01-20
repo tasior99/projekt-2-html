@@ -42,6 +42,9 @@
   .offerText {
     margin-bottom: 41px;
   }
+  .icon {
+    margin-top: 15px;
+  }
 }
 @media screen and (min-width: 960px) {
   .responsiveContainer {
@@ -194,7 +197,7 @@ footer > * {
 .service {
   position: relative;
   display: flex;
-  background-color: aliceblue;
+  background-color: #f1f1f1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -263,4 +266,14 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+}
+h5 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
 }
