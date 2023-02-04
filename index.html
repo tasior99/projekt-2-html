@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,6 +11,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/9064301131.js"
@@ -18,45 +19,38 @@
     ></script>
   </head>
   <body>
-    <div class="responsiveContainer">
-      <nav>
-        <div class="sectionBackground" id="navBackground"></div>
-        <div class="name">
-          <h5>Moja Firma</h5>
-        </div>
-        <!-- <div class="button">
-          <a href="#us">o nas</a>
-        </div>
-        <div class="button">
-          <a href="#offer">oferta</a>
-        </div>
-        <div class="disabled">kontakt</div> -->
-      </nav>
-      <section class="section" id="welcomeSection">
-        <div class="sectionBackground" id="image"></div>
-        <div class="mainText">
-          <h1>nasza firma oferuje najwyższej jakości produkty.</h1>
-        </div>
-        <div class="subText">
-          <p>Nie wierz nam na słowo - sprawdź</p>
-        </div>
-        <div>
-          <a class="main" href="#offer">oferta</a>
-        </div>
-      </section>
-      <section class="section" id="us">
-        <div class="sectionBackground" id="usBackground"></div>
-        <div class="our">
-          <h1>Nasi Specjaliśći</h1>
-        </div>
+    <nav class="dark-gray-bg">
+      <div class="responsiveContainer">
+        <span class="name">Moja Firma</span>
+
+        <a href="#us" class="button">o nas</a>
+
+        <a href="#offer" class="button">oferta</a>
+
+        <a class="disabled">kontakt</a>
+      </div>
+    </nav>
+
+    <section class="section" id="welcomeSection">
+      <div class="responsiveContainer">
+        <h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
+        <p class="subText">Nie wierz nam na słowo - sprawdź</p>
+        <a class="main" href="#offer">oferta</a>
+      </div>
+    </section>
+
+    <section class="section" id="us">
+      <div class="responsiveContainer">
+        <h2 class="our">Nasi specjaliści</h2>
+
         <div class="specialist">
           <img
             class="picture"
             src="https://static.oferteo.pl/images/portfolio/3638356/256px_s/1601802382456_avatar.jpg"
             alt="pracownik"
           />
-          <div class="specialistName">
-            <h4>Imię i Nazwisko [dział]</h4>
+          <div class="specialistText">
+            <p class="specialistName">Imię i Nazwisko [dział]</p>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ex
               voluptas distinctio eius accusamus et praesentium, sit autem
@@ -72,8 +66,8 @@
             src="https://static.oferteo.pl/images/portfolio/3721820/256px_s/53460_marek2.jpg"
             alt="pracownik2"
           />
-          <div class="specialistName">
-            <h4>Imię i Nazwisko [dział]</h4>
+          <div class="specialistText">
+            <p class="specialistName">Imię i Nazwisko [dział]</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               ullam amet odit, iusto possimus veniam nostrum. Porro sapiente
@@ -83,44 +77,48 @@
             </p>
           </div>
         </div>
-      </section>
-      <section class="section" id="offer">
-        <div class="sectionBackground" id="offerBackground"></div>
-        <div class="offerText"><h2>Czym zajmuje się nasza firma?</h2></div>
+      </div>
+    </section>
+
+    <section class="section" id="offer">
+      <div class="responsiveContainer">
+        <h2 class="offerText">Czym zajmuje się nasza firma?</h2>
         <div class="row">
           <div class="service promotion">
-            <h5>Usługa 1</h5>
+            <p class="box">Usługa 1</p>
             <p>(nowość)</p>
           </div>
           <div class="service">
-            <h5>Usługa 2</h5>
+            <p class="box">Usługa 2</p>
           </div>
           <div class="service">
-            <h5>Usługa 3</h5>
+            <p class="box">Usługa 3</p>
           </div>
         </div>
         <div class="row">
           <div class="service">
-            <h5>Usługa 4</h5>
+            <p class="box">Usługa 4</p>
           </div>
           <div class="service">
-            <h5>Usługa 5</h5>
+            <p class="box">Usługa 5</p>
           </div>
           <div class="service">
-            <h5>Usługa 6</h5>
+            <p class="box">Usługa 6</p>
           </div>
         </div>
-      </section>
-      <footer>
-        <div class="sectionBackground" id="footerBackground"></div>
+      </div>
+    </section>
+
+    <footer class="dark-gray-bg">
+      <div class="responsiveContainer">
         <div class="name">
-          <h6>nazwa firmy - wszelkie prawa zastrzeżone, 2023</h6>
+          <span>nazwa firmy - wszelkie prawa zastrzeżone, 2023</span>
         </div>
         <div class="icon">
           <i class="fa-brands fa-instagram fa-2xl" id="instagram"></i>
           <i class="fa-brands fa-square-facebook fa-2xl"></i>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
